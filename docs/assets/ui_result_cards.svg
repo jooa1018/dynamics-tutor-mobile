@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="720" viewBox="0 0 980 720">
+  <rect width="980" height="720" fill="#f8fafc"/>
+  <rect x="40" y="35" width="900" height="80" rx="18" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="70" y="85" font-family="Arial" font-size="24" font-weight="700">문제 유형: 순수 구름 운동</text>
+  <rect x="40" y="135" width="430" height="210" rx="18" fill="#fff" stroke="#e2e8f0"/>
+  <text x="70" y="175" font-family="Arial" font-size="20" font-weight="700">FBD / 좌표축</text>
+  <circle cx="245" cy="245" r="52" fill="#e0f2fe" stroke="#0369a1" stroke-width="4"/>
+  <line x1="245" y1="245" x2="245" y2="315" stroke="#111827" stroke-width="3" marker-end="url(#a)"/>
+  <text x="258" y="300" font-family="Arial" font-size="16">mg</text>
+  <rect x="510" y="135" width="430" height="210" rx="18" fill="#ecfdf3" stroke="#bbf7d0"/>
+  <text x="540" y="175" font-family="Arial" font-size="20" font-weight="700">✅ 적용식</text>
+  <text x="540" y="225" font-family="monospace" font-size="18">v_G = ωR</text>
+  <text x="540" y="260" font-family="monospace" font-size="18">a_G = αR</text>
+  <rect x="40" y="370" width="430" height="210" rx="18" fill="#fef3f2" stroke="#fecaca"/>
+  <text x="70" y="410" font-family="Arial" font-size="20" font-weight="700">🚫 쓰면 안 되는 식</text>
+  <text x="70" y="460" font-family="Arial" font-size="16">해당 없음 또는 조건부 주의</text>
+  <rect x="510" y="370" width="430" height="210" rx="18" fill="#fff" stroke="#e2e8f0"/>
+  <text x="540" y="410" font-family="Arial" font-size="20" font-weight="700">🪜 풀이 순서</text>
+  <text x="540" y="455" font-family="Arial" font-size="16">1. 접촉점 미끄럼 없음 확인</text>
+  <text x="540" y="490" font-family="Arial" font-size="16">2. 순수 구름 조건 적용</text>
+  <text x="540" y="525" font-family="Arial" font-size="16">3. 병진/회전 방정식 작성</text>
+</svg>

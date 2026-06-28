@@ -1,0 +1,54 @@
+Name                                               Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------------------
+dynamics_core/__init__.py                              3      0   100%
+dynamics_core/ai_assist.py                           345     40    88%   101, 139, 183-184, 189-190, 241, 245, 253, 285-286, 294-295, 303-304, 365-391, 395-397, 411, 456, 465-466, 474-476, 578-581
+dynamics_core/calculators.py                         189     20    89%   49-50, 59, 61-62, 75, 86, 90, 97, 113-114, 121-122, 142-143, 171, 180-183
+dynamics_core/concepts.py                              6      0   100%
+dynamics_core/consistency_guard.py                   164     22    87%   14, 29, 48-49, 127-128, 156-158, 160-162, 179-181, 195, 197, 199, 201, 203, 205, 207
+dynamics_core/expert_templates.py                    276      2    99%   15, 31
+dynamics_core/feedback.py                            294     30    90%   24, 64, 157-158, 160-161, 170, 182, 184, 186, 188, 195, 197, 199, 234, 245, 251, 259, 265, 271, 277, 359-374, 413-414
+dynamics_core/fourth_templates.py                    376     12    97%   17, 95, 97, 99, 101, 255-258, 412, 759, 844
+dynamics_core/lexicon.py                              50      4    92%   103-106
+dynamics_core/mobile_support.py                      106     12    89%   58, 74-75, 185, 189, 191, 205-206, 208-209, 211-212
+dynamics_core/modeling.py                            241      3    99%   99, 130-131
+dynamics_core/models.py                               80      0   100%
+dynamics_core/parser.py                              177      8    95%   139-140, 151-153, 164, 263-264
+dynamics_core/scope_limits.py                        196      9    95%   186, 190, 309, 496, 514, 523-525, 545, 570
+dynamics_core/semantic_normalizer.py                 110      2    98%   11, 205
+dynamics_core/storage.py                             149      5    97%   40, 44, 62, 64-65
+dynamics_core/strategy_engine.py                     169      6    96%   67-68, 123-124, 159, 223
+dynamics_core/template_rebuild.py                    161     25    84%   16, 215-216, 353, 357, 359, 363, 366-372, 426-438
+dynamics_core/ui_helpers.py                          169     20    88%   100, 186, 204, 206, 210, 212, 216, 218, 221-227, 237, 239, 241, 246, 254
+dynamics_core/validators.py                           30      5    83%   10-12, 34, 36
+expert_regression_tests.py                            51      2    96%   193-194
+expression_variation_tests.py                         42      2    95%   158-159
+final_quality_tests.py                                41      2    95%   157-158
+fourth_regression_tests.py                            45      2    96%   221-222
+regression_tests.py                                  130      2    98%   219-220
+tests/conftest.py                                      6      1    83%   8
+tests/test_ai_hybrid.py                               83      0   100%
+tests/test_beginner_strict_condition_gates.py         83      0   100%
+tests/test_beginner_tutor_safety.py                   43      0   100%
+tests/test_beginner_tutor_v10_requirements.py        128      0   100%
+tests/test_beginner_v11_misconception_scoping.py      59      1    98%   15
+tests/test_beginner_v12_synonym_robustness.py         78      0   100%
+tests/test_curve_strict_gate_final.py                 42      0   100%
+tests/test_distribution_hygiene.py                    10      0   100%
+tests/test_docs_code_alignment_final.py               44      0   100%
+tests/test_domain_ontology_regression.py              32      0   100%
+tests/test_existing_suites.py                         15      0   100%
+tests/test_final_acceptance_bugfixes.py               88      0   100%
+tests/test_final_micro_patch_nl.py                    35      0   100%
+tests/test_final_natural_language_robustness.py       29      0   100%
+tests/test_final_residual_nl_bugs.py                  31      0   100%
+tests/test_final_user_failure_cases.py                80      0   100%
+tests/test_final_user_qa_residuals.py                 33      0   100%
+tests/test_limitations_and_scope.py                   54      0   100%
+tests/test_mobile_webapp_packaging.py                 73      0   100%
+tests/test_semantic_robustness.py                     95      0   100%
+tests/test_symbol_input_helpers.py                    22      0   100%
+tests/test_template_rebuild_extra.py                  36      0   100%
+tests/test_template_rebuild_pipeline.py               77      0   100%
+tests/test_ui_smoke_contract.py                      104      0   100%
+--------------------------------------------------------------------------------
+TOTAL                                               4980    237    95%

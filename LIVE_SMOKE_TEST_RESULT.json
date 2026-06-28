@@ -1,0 +1,18 @@
+{
+  "live_smoke_test": "skipped_no_api_key",
+  "fallback_test": "passed",
+  "reason": "OPENAI_API_KEY not set",
+  "cases": [
+    {
+      "input_hash": "9cad20a1ff041d7d",
+      "rule_candidate": "일반 동역학 문제",
+      "rule_confidence": 0.7,
+      "ai_called_status": "no_api_key_fallback",
+      "final_template": "일반 동역학 문제 풀이 골격",
+      "fallback_used": true,
+      "rule_engine_working": true
+    }
+  ],
+  "cache_path": "data/ai_assist_cache.json",
+  "log_path": "data/gpt_call_log.jsonl"
+}

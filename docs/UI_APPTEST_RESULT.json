@@ -1,0 +1,9 @@
+{
+  "streamlit_apptest": "skipped_missing_streamlit",
+  "reason": "ModuleNotFoundError",
+  "student_mode_default": "not_run",
+  "example_button_click": "not_run",
+  "diagnosis_button_click": "not_run",
+  "debug_mode_available": "not_run",
+  "raw_exception_visible": false
+}

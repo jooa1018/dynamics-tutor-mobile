@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <rect width="980" height="620" fill="#f8fafc"/>
+  <rect x="40" y="35" width="900" height="100" rx="22" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="70" y="88" font-family="Arial" font-size="28" font-weight="700">⚙️ DynaTutor · 동역학 문제풀이 튜터</text>
+  <rect x="40" y="160" width="560" height="380" rx="18" fill="#fff" stroke="#e2e8f0"/>
+  <text x="70" y="205" font-family="Arial" font-size="22" font-weight="700">문제 입력</text>
+  <rect x="70" y="235" width="500" height="120" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="90" y="300" font-family="Arial" font-size="18" fill="#64748b">문제를 입력해 보세요…</text>
+  <rect x="70" y="380" width="180" height="48" rx="12" fill="#2563eb"/>
+  <text x="115" y="411" font-family="Arial" font-size="18" fill="#fff">진단 실행</text>
+  <rect x="630" y="160" width="310" height="380" rx="18" fill="#fff" stroke="#e2e8f0"/>
+  <text x="660" y="205" font-family="Arial" font-size="22" font-weight="700">예제 문제</text>
+  <rect x="660" y="235" width="250" height="44" rx="12" fill="#dbeafe"/><text x="685" y="263" font-family="Arial" font-size="16">순수 구름</text>
+  <rect x="660" y="292" width="250" height="44" rx="12" fill="#dbeafe"/><text x="685" y="320" font-family="Arial" font-size="16">원뿔진자</text>
+  <rect x="660" y="349" width="250" height="44" rx="12" fill="#dbeafe"/><text x="685" y="377" font-family="Arial" font-size="16">경사진 커브</text>
+</svg>

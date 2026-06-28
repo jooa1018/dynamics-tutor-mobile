@@ -1,0 +1,151 @@
+{
+  "ui_smoke_test": "passed",
+  "streamlit_apptest": "see docs/UI_APPTEST_RESULT.json",
+  "browser_click_test": "attempted_but_blocked_by_sandbox_browser_policy",
+  "checks": [
+    {
+      "name": "student_mode_default",
+      "status": "passed"
+    },
+    {
+      "name": "expert_debug_gated",
+      "status": "passed"
+    },
+    {
+      "name": "friendly_empty_message",
+      "status": "passed"
+    },
+    {
+      "name": "api_key_not_logged",
+      "status": "passed"
+    },
+    {
+      "name": "markdown_export_button",
+      "status": "passed"
+    },
+    {
+      "name": "html_export_button",
+      "status": "passed"
+    },
+    {
+      "name": "equation_export_button",
+      "status": "passed"
+    },
+    {
+      "name": "friendly_errors",
+      "status": "passed"
+    }
+  ],
+  "examples": [
+    {
+      "label": "순수 구름",
+      "problem_type": "순수 구름 운동",
+      "fbd_kind": "pure_rolling",
+      "force_symbol": null,
+      "applicable_count": 3,
+      "not_applicable_count": 1,
+      "student_debug_leak": false
+    },
+    {
+      "label": "미끄럼 동반 회전",
+      "problem_type": "미끄럼을 동반한 구름 운동",
+      "fbd_kind": "sliding_rotation",
+      "force_symbol": null,
+      "applicable_count": 3,
+      "not_applicable_count": 3,
+      "student_debug_leak": false
+    },
+    {
+      "label": "원뿔진자",
+      "problem_type": "원뿔진자 원운동 문제",
+      "fbd_kind": "conical_pendulum",
+      "force_symbol": "T",
+      "applicable_count": 4,
+      "not_applicable_count": 2,
+      "student_debug_leak": false
+    },
+    {
+      "label": "수직 원운동 장력",
+      "problem_type": "수직 원운동 최저점 장력/수직항력 문제",
+      "fbd_kind": "vertical_circle_string",
+      "force_symbol": "T",
+      "applicable_count": 2,
+      "not_applicable_count": 3,
+      "student_debug_leak": false
+    },
+    {
+      "label": "수직 원운동 수직항력",
+      "problem_type": "수직 원운동 최저점 장력/수직항력 문제",
+      "fbd_kind": "vertical_circle_track",
+      "force_symbol": "N",
+      "applicable_count": 2,
+      "not_applicable_count": 3,
+      "student_debug_leak": false
+    },
+    {
+      "label": "경사진 커브 최대속도",
+      "problem_type": "마찰 있는 경사진 커브 최대속도 문제",
+      "fbd_kind": "banked_curve",
+      "force_symbol": null,
+      "applicable_count": 3,
+      "not_applicable_count": 4,
+      "student_debug_leak": false
+    },
+    {
+      "label": "경사진 커브 최소속도",
+      "problem_type": "마찰 있는 경사진 커브 최소속도 문제",
+      "fbd_kind": "banked_curve",
+      "force_symbol": null,
+      "applicable_count": 5,
+      "not_applicable_count": 4,
+      "student_debug_leak": false
+    },
+    {
+      "label": "수평면 블록-도르래",
+      "problem_type": "수평면 블록 + 매달린 물체 연결 문제",
+      "fbd_kind": "block_pulley",
+      "force_symbol": "T",
+      "applicable_count": 4,
+      "not_applicable_count": 6,
+      "student_debug_leak": false
+    },
+    {
+      "label": "위치벡터 미분",
+      "problem_type": "위치 함수 기반 입자 운동학",
+      "fbd_kind": "cartesian_vector",
+      "force_symbol": null,
+      "applicable_count": 5,
+      "not_applicable_count": 7,
+      "student_debug_leak": false
+    },
+    {
+      "label": "탄환-회전강체 충돌",
+      "problem_type": "탄환-막대 충돌/각운동량 보존 문제",
+      "fbd_kind": "bullet_rotating_body_collision",
+      "force_symbol": null,
+      "applicable_count": 5,
+      "not_applicable_count": 5,
+      "student_debug_leak": false
+    }
+  ],
+  "exports": {
+    "markdown": {
+      "status": "passed",
+      "bytes": 804
+    },
+    "html": {
+      "status": "passed",
+      "bytes": 999
+    },
+    "equations_only": {
+      "status": "passed",
+      "bytes": 194
+    }
+  },
+  "records": {
+    "save": "passed",
+    "favorite": "passed",
+    "delete": "passed"
+  },
+  "api_key_exposed": false
+}

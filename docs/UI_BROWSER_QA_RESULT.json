@@ -1,0 +1,26 @@
+{
+  "ui_qa_status": "passed_with_streamlit_apptest_and_contract_tests",
+  "real_browser_click_test": "attempted_but_blocked_by_environment_policy",
+  "browser_error": "Chromium/Playwright navigation to localhost returned ERR_BLOCKED_BY_ADMINISTRATOR in this sandbox; Streamlit server itself returned HTTP 200 via curl.",
+  "screenshots": [
+    "01_first_screen.png",
+    "02_example_library.png",
+    "03_result_cards.png",
+    "04_fbd_card.png",
+    "05_equation_cards.png",
+    "06_solution_steps.png",
+    "07_solution_compare.png",
+    "08_notebook.png",
+    "09_debug_mode.png",
+    "10_mobile_result.png",
+    "11_api_fallback.png",
+    "12_export_preview.png"
+  ],
+  "export_examples": [
+    "sample_diagnosis.html",
+    "sample_diagnosis.md",
+    "sample_equations_only.md"
+  ],
+  "api_key_exposed": false,
+  "student_debug_hidden": true
+}

@@ -1,0 +1,7 @@
+streamlit>=1.33
+sympy>=1.12
+openai>=1.30
+pytest>=8.0
+coverage>=7.0
+# Optional but recommended for Supabase/PostgreSQL deployment.
+psycopg[binary]>=3.1
